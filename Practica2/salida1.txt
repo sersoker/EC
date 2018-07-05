@@ -1,0 +1,57 @@
+suma=32 hex=20  
+suma=64 hex=40  
+suma=80 hex=50  
+suma=137438953440 hex=1fffffffe0  
+suma=4294967296 hex=100000000  
+suma=32212254720 hex=780000000  
+
+
+suma=-32 hex=ffffffffffffffe0  
+suma=-16 hex=fffffffffffffff0  
+suma=-32 hex=ffffffffffffffe0  
+suma=68719476704 hex=fffffffe0  
+suma=-68719476736 hex=fffffff000000000  
+suma=2147483648 hex=80000000  
+suma=4294967296 hex=100000000  
+suma=-2147483648 hex=ffffffff80000000  
+suma=-17179869184 hex=fffffffc00000000  
+
+ 
+cociente=       0 	 resto=     -16  
+hex=0x00000000 	 resto=0xfffffff0  
+ 
+cociente=      -1 	 resto=       0  
+hex=0xffffffff 	 resto=0x00000000  
+ 
+cociente=2147483647 	 resto=       0  
+hex=0x7fffffff 	 resto=0x00000000  
+ 
+cociente=-2147483648 	 resto=       0  
+hex=0x80000000 	 resto=0x00000000  
+ 
+cociente=-536870912 	 resto=       0  
+hex=0xe0000000 	 resto=0x00000000  
+ 
+cociente=-1 	 resto=       0  
+hex=0xffffffff 	 resto=0x00000000  
+ 
+cociente=       0 	 resto=     -24  
+hex=0x00000000 	 resto=0xffffffe8  
+ 
+cociente=      -1 	 resto=       0  
+hex=0xffffffff 	 resto=0x00000000  
+ 
+cociente=       0 	 resto=     -24  
+hex=0x00000000 	 resto=0xffffffe8  
+ 
+cociente=       7 	 resto=      16  
+hex=0x00000007 	 resto=0x00000010  
+
+cociente=      15 	 resto=      16  
+hex=0x0000000f 	 resto=0x00000010  
+
+cociente=      23 	 resto=       8  
+hex=0x00000017 	 resto=0x00000008  
+
+cociente=      -8 	 resto=      -8  
+hex=0xfffffff8 	 resto=0xfffffff8  

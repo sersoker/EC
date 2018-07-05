@@ -1,0 +1,8 @@
+Popcount
+1.- Para entero 2²⁶ -1
+	para unsigned es 2²⁷-1
+2.- Utilizando el bit 0 y usandolo como bit a comparar, podemos ver si es un 1 y utilizarlo para contar, posteriormente se pueden desplazar todos los numeroshasta el ultimo de ellos.
+El resto de bits, no se podrian utilizar, salvo el 31 si utilizamos un desplazamiento hacia la izquierda.
+3.- Se utiliza para que los desplazamientos no afecten al signo. Si se declara como int, el primer signo es el que indica el signo, asi que al desplazarlo cambiaria. En princio no supone diferencia para nuestra practica, pero en caso de necesitar numeros negativos o el maximo valor alcanzable por un entero (sin signo) no podriamos realizar la cuenta bien.
+4.- Los tiempos usando m y +m son mas grandes, esto se debe a que los valores se pasan a traves de la pila y esto supone mas accesos que pasarlos por registro.
+5.- 	
